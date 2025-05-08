@@ -1,0 +1,30 @@
+-- —á‘è1(p.52)
+--SELECT emp_name, sal FROM employee WHERE sal < 1500;
+-- —á‘è2(p.53)
+--SELECT emp_name, sal, gender FROM employee WHERE gender =2;
+-- —á‘è3(p.53)
+--SELECT emp_name, sal FROM employee WHERE emp_name = 'ˆÀ•” O]';
+-- —á‘è4(p.54)
+--SELECT emp_name, sal, birthday FROM employee WHERE birthday >= '1980-01-01';
+--—á‘è5(p.54)
+--SELECT emp_name, sal, birthday, emp_id FROM employee WHERE emp_id = 20;
+--SELECT * FROM employee--‘SƒŒƒR[ƒh‚ð’Šo
+-- —á‘è1(p.55)
+--SELECT emp_name, sal FROM employee WHERE sal BETWEEN 2000 AND 3000;--WHERE sal >= 2000 AND sal <= 3000;
+-- —á‘è2(p.55)
+--SELECT emp_name, sal FROM employee WHERE sal >= 2000 AND gender =2;
+-- —á‘è3(p.56)
+--SELECT emp_name, sal, emp_id FROM employee WHERE emp_id IN(2, 4, 7);--WHERE emp_id = 2 OR emp_id = 4 OR emp_id = 7;
+-- —á‘è4(p.56)
+--SELECT emp_name, sal, gender FROM employee WHERE sal >= 2000 OR gender = 2;
+-- —á‘è5(p.57)
+--SELECT emp_name, sal, gender FROM employee WHERE (sal >= 2000 AND sal <= 3000) OR gender = 2;
+-- —á‘è1(p.60)
+--SELECT * FROM customer WHERE address LIKE '%“s%';
+--SELECT * FROM customer WHERE cust_name LIKE '___˜a%'
+-- —á‘è1(p.62)
+--SELECT * FROM employee WHERE comm IS NOT NULL;
+--‰‰K
+--SELECT * FROM customer WHERE tel LIKE '__4%';
+--SELECT  emp_name, sal  FROM employee WHERE sal BETWEEN 2000 AND 3000;
+SELECT * FROM employee WHERE birthday BETWEEN '1983-04-02' AND '1984-04-01';
