@@ -1,0 +1,2 @@
+--DELETE FROM product WHERE discount IS NULL;
+--DELETE FROM product;

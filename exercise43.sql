@@ -25,3 +25,7 @@ ORDER BY discount;*/
 --8
 --SELECT DISTINCT emp_id FROM packedsales ORDER BY emp_id; 
 --SELECT DISTINCT ON (emp_id) emp_id FROM packedsales ORDER BY emp_id; 
+--SELECT * FROM employee ORDER BY birthday DESC;
+--SELECT * FROM product WHERE cost BETWEEN 10000 AND 19999 AND (discount IS NULL)
+--SELECT * FROM packedsales WHERE cust_address LIKE '%ç`ãÊ%';
+SELECT * FROM custemer_table

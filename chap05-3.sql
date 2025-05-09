@@ -1,0 +1,2 @@
+-- —á‘è1(p.120)
+--DELETE FROM employee --WHERE sal >= 5000;
